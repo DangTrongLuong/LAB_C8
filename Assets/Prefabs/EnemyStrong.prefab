@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1175819777188528932
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4518060775238308899, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_Color.b
+      value: 0.18369527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518060775238308899, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_Color.g
+      value: 0.18369527
+      objectReference: {fileID: 0}
+    - target: {fileID: 4518060775238308899, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_Color.r
+      value: 0.9056604
+      objectReference: {fileID: 0}
+    - target: {fileID: 7389061762527078308, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_Name
+      value: EnemyStrong
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7535200626825963504, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7389061762527078308, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 568647564700113461}
+  m_SourcePrefab: {fileID: 100100000, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+--- !u!1 &8564264696174781568 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7389061762527078308, guid: 4e9b8c736479d19479d21fbaf7e51973, type: 3}
+  m_PrefabInstance: {fileID: 1175819777188528932}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &568647564700113461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8564264696174781568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c7603a191399594f8a8cbece26d1f2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Enemy
+  speed: 1
+  health: 200
+  enemyType: Strong
